@@ -8,7 +8,7 @@ public class BankingApp {
         acc.createAccount ();
         int inputNumber;
         do {
-            System.out.println("What do you want to do (choose right number and write it): \n 1. Show your account information, \n 2. Deposit money, \n 3. Withdarw money, \n 4. Exit from banking aplication.");
+            System.out.println("What do you want to do (choose right number and write it): \n 1. Show your account information, \n 2. Deposit money, \n 3. Withdraw money, \n 4. Exit from banking aplication.");
             inputNumber = scanner.nextInt();
             switch (inputNumber) {
                 case 1:

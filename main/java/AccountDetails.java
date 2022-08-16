@@ -32,9 +32,10 @@ public class AccountDetails {
         System.out.println("How much money do you want to withdraw?");
         long cash;
         cash = scanner.nextLong();
-        balance = balance - cash;
                 if(cash>balance){
                     System.out.println("You don't have enough money. Choose another value");
+                } else if (cash<=balance) {
+                    balance = balance - cash;
                 }
     }
 }
